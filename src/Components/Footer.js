@@ -4,16 +4,16 @@ import {faTwitter, faLinkedinIn, faGithub} from "@fortawesome/free-brands-svg-ic
 
 function Footer() {
     return (
-        <footer class="bg-dark text-center text-white">
+        <footer class="bg-dark text-center text-white mb-0">
             <div class="container p-4 pb-0">
-                <section class="mb-4">
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                <section class="pb-3">
+                    <a class="btn btn-outline-light btn-floating m-2" href="#!" role="button"
                     ><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></a>
 
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                    <a class="btn btn-outline-light btn-floating m-2" href="#!" role="button"
                     ><FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon></a>
 
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                    <a class="btn btn-outline-light btn-floating m-2" href="#!" role="button"
                     ><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a>
                 </section>
                 </div>

@@ -11,7 +11,7 @@ import './App.css';
 
 function App(){
   return (
-    <div>
+    <div className="bgBlack">
       <Header />
       <Routes>
         <Route path="/" element={<Accueil/>} />

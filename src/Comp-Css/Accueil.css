@@ -1,21 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 #main{
-    background-color: grey;
-    position: relative;
+    /* background-image: url(../data/Img/space.jpeg); */
     text-align: center;
-    color: white;
     padding: 0%;
-}
-
-.banner{
-  min-width: 100%;
-}
-
-.text-banner{
     
-        position: absolute;
-        top: 50%;
-        left: 25%;
-        transform: translate(-50%, -50%);
-      
 }
 
+.white{
+color: white      
+}
+
+
+
+h1{
+  font-family: 'Lobster', cursive;
+  font-size: 300%;
+}
+
+.subtitle{
+  font-family: 'Lobster', cursive;
+  font-size: 200%;
+}
