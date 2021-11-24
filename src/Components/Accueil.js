@@ -19,7 +19,7 @@ function Accueil() {
          <div id="main" class="container-fluid">
             <article class="mx-3 row justify-content-center" >
                 <h1 className={`white ${!hide ? 'hide-classname' :'active-class'}`}  >Mes projets</h1>
-                <p className={`white subtitle ${!hide ? 'hide-classname' :'active-class'}`}>Voila les projets réalisés pendant ma formation de developpeur web</p>
+                <p className={`white subtitle ${!hide ? 'hide-classname' :'active-class'}`}>Voici les projets réalisés pendant ma formation de developpeur web</p>
                 <Projects title="SWAPI Réalisation ReactJS" text="Exploitation d'une API via ReactJS." img={Swapi} Github={"https://github.com/LopezRemi/Projet-swapi"} site={"https://lopezremi.github.io/projet-swapi/"} />
                 <Projects title="Memory game en JS" text="Developpement d'un jeu des paires en Javascript dans le cadre de ma formation developpeur web à l'afpa." img={Memory} Github={"https://github.com/LopezRemi/Jeu_des_paires"} site={"https://lopezremi.github.io/Jeu_des_paires/"} />
                 <Projects title="Norimmo immobilier" text="Premier projet de groupe réalisé à l'afpa dans le cadre de ma formation developpeur web." img={Norimmo} Github={"https://github.com/LopezRemi/NorImmo"} site={"https://lopezremi.github.io/NorImmo/"} />
