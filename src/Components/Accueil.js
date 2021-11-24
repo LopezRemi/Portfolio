@@ -3,26 +3,32 @@ import Projects from "./Projects";
 import Swapi from "../data/Img/Swapi.jpg";
 import Memory from "../data/Img/Memory.jpeg";
 import Norimmo from "../data/Img/Norimmo.jpg";
+import Paper from "../data/Img/Paper.jpg";
+import Terre from "../data/Img/Terre.PNG";
+import banque from "../data/Img/banque.jpg";
+import { useState, useEffect } from "react";
+
+
 
 
 function Accueil() {
-    return (
-        <div id="main" class="container-fluid">
-            <article class="mx-3 row justify-content-center my-5" >
-                <h1 className="white mt-5" >Mes projets</h1>
-                <p class="white subtitle mb-5">Voila les projets réalisés pendant ma formation de developpeur web</p>
-            
-                <Projects title="Projet SWAPI Réalisation ReactJs" text="Exploitation d'une API via ReactJS dans le cadre de ma formation developpeur web à l'afpa." img={Swapi} href={"https://github.com/LopezRemi/Projet-swapi"} />
-                <Projects title="Projet Memory game en js" text="Developpement d'un jeu des paires en Javascript dans le cadre de ma formation developpeur web à l'afpa." img={Memory} />
-                <Projects title="Projet Norimmo immobilier" text="Premier projet de groupe réalisé à l'afpa dans le cadre de ma formation developpeur web." img={Norimmo} />
-                <Projects title="Projet SWAPI Réalisation ReactJs" text="Exploitation d'une API via ReactJS" img={Swapi} />
-                <Projects title="Projet SWAPI Réalisation ReactJs" text="Exploitation d'une API via ReactJS" img={Swapi} />
-                <Projects title="Projet SWAPI Réalisation ReactJs" text="Exploitation d'une API via ReactJS" img={Swapi} />
-               
+    const [hide, setHide] = useState(false)
+
+    useEffect(()=>{(setHide(true))},[])
+     return (
+         <div id="main" class="container-fluid">
+            <article class="mx-3 row justify-content-center" >
+                <h1 className={`white ${!hide ? 'hide-classname' :'active-class'}`}  >Mes projets</h1>
+                <p className={`white subtitle ${!hide ? 'hide-classname' :'active-class'}`}>Voila les projets réalisés pendant ma formation de developpeur web</p>
+                <Projects title="SWAPI Réalisation ReactJS" text="Exploitation d'une API via ReactJS." img={Swapi} Github={"https://github.com/LopezRemi/Projet-swapi"} site={"https://lopezremi.github.io/projet-swapi/"} />
+                <Projects title="Memory game en JS" text="Developpement d'un jeu des paires en Javascript dans le cadre de ma formation developpeur web à l'afpa." img={Memory} Github={"https://github.com/LopezRemi/Jeu_des_paires"} site={"https://lopezremi.github.io/Jeu_des_paires/"} />
+                <Projects title="Norimmo immobilier" text="Premier projet de groupe réalisé à l'afpa dans le cadre de ma formation developpeur web." img={Norimmo} Github={"https://github.com/LopezRemi/NorImmo"} site={"https://lopezremi.github.io/NorImmo/"} />
+                <Projects title="Banque Normande" text="Premiere utilisation du DOM dans la création d'un site" img={banque} Github={"https://github.com/LopezRemi/banque_normande"} site={"https://lopezremi.github.io/banque_normande/"} />
+                <Projects title="Terre de Geek" text="Réalisation de mon premier site avec les outils de bases" img={Terre} Github={"https://github.com/LopezRemi/terre_de_geek"} site={"https://lopezremi.github.io/terre_de_geek/index.html"} />
+                <Projects title="Premier Projet Shifumi" text="Création d'un jeu de shifumi en JavaScript avec les premières bases acquises " img={Paper} Github={"https://github.com/LopezRemi/Shi_Fu_Mi"} site={"https://lopezremi.github.io/Shi_Fu_Mi/"} />
             </article>
         </div>
     );
-
 };
 
 

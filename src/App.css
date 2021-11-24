@@ -1,3 +1,27 @@
 .bgBlack{
     background: black;
 }
+
+
+.logo{
+     width: 12Em;
+     margin-left: 1em;
+}
+
+.headLink:hover{
+
+    color: #F0422F !important;
+}
+
+.topLane {
+    border-bottom: solid #F0422F ;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+  }
+
+  .botLane {
+    border-top: solid #F0422F ;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+  }
+

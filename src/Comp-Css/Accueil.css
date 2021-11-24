@@ -21,5 +21,15 @@ h1{
 
 .subtitle{
   font-family: 'Lobster', cursive;
-  font-size: 200%;
+  font-size: 150%;
+}
+
+.active-class {
+  opacity: 1;
+  transition: 4s;
+  margin-bottom: 1.5em;
+}
+.hide-classname {
+  opacity: 0;
+  
 }
