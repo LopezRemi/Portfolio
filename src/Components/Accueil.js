@@ -16,9 +16,9 @@ function Accueil() {
 
     useEffect(()=>{(setHide(true))},[])
      return (
-         <div id="main" class="container-fluid">
-            <article class="mx-3 row justify-content-center" >
-                <h1 className={`white ${!hide ? 'hide-classname' :'active-class'}`}  >Mes projets</h1>
+         <div id="main" className="container-fluid">
+            <article className="mx-3 row justify-content-center puff-in-top" >
+                <h1 className={`white mt-4 ${!hide ? 'hide-classname' :'active-class'}`}  >Mes projets</h1>
                 <p className={`white subtitle ${!hide ? 'hide-classname' :'active-class'}`}>Voici les projets réalisés pendant ma formation de developpeur web</p>
                 <Projects title="SWAPI Réalisation ReactJS" text="Exploitation d'une API via ReactJS." img={Swapi} Github={"https://github.com/LopezRemi/Projet-swapi"} site={"https://lopezremi.github.io/projet-swapi/"} />
                 <Projects title="Memory game en JS" text="Developpement d'un jeu des paires en Javascript dans le cadre de ma formation developpeur web à l'afpa." img={Memory} Github={"https://github.com/LopezRemi/Jeu_des_paires"} site={"https://lopezremi.github.io/Jeu_des_paires/"} />
