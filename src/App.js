@@ -15,9 +15,9 @@ function App() {
     <div className="bgBlack">
       <Header />
       <Routes>
-        <Route path="/" element={<Accueil/>}/>
-        <Route path="Biographie" element={<Biographie />} />
-        <Route path="Contact" element={<Contact />} />
+        <Route path="Portfolio/" element={<Accueil/>}/>
+        <Route path="Portfolio/Biographie" element={<Biographie />} />
+        <Route path="Portfolio/Contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>
