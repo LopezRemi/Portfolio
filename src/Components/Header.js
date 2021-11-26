@@ -23,9 +23,9 @@ function Header() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link className="headLink text-center" as={Link} to="/">Accueil</Nav.Link>
-                <Nav.Link className="headLink text-center" as={Link} to="/Biographie">À propos</Nav.Link>
-                <Nav.Link className="headLink text-center" as={Link} to="/Contact">Contact</Nav.Link>
+                <Nav.Link className="headLink text-center" as={Link} to="Portfolio/">Accueil</Nav.Link>
+                <Nav.Link className="headLink text-center" as={Link} to="Portfolio/Biographie">À propos</Nav.Link>
+                <Nav.Link className="headLink text-center" as={Link} to="Portfolio/Contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
