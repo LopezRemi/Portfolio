@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.e358a758.chunk.css",
-    "main.js": "/Portfolio/static/js/main.ead70d7f.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.ead70d7f.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.d55cec08.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.d55cec08.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.075eed46.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.075eed46.js.map",
     "static/css/2.383c0125.chunk.css": "/Portfolio/static/css/2.383c0125.chunk.css",
@@ -17,7 +17,7 @@
     "static/media/Credit.7a1386d9.jpeg": "/Portfolio/static/media/Credit.7a1386d9.jpeg",
     "static/media/Memory.23cbb7e5.jpeg": "/Portfolio/static/media/Memory.23cbb7e5.jpeg",
     "static/media/Norimmo.6c5f2498.jpg": "/Portfolio/static/media/Norimmo.6c5f2498.jpg",
-    "static/media/Paper.a8c14051.jpg": "/Portfolio/static/media/Paper.a8c14051.jpg",
+    "static/media/Paper.57c0b7dd.jpg": "/Portfolio/static/media/Paper.57c0b7dd.jpg",
     "static/media/Profile.7059d597.jpg": "/Portfolio/static/media/Profile.7059d597.jpg",
     "static/media/Swapi.25fcbaea.jpg": "/Portfolio/static/media/Swapi.25fcbaea.jpg",
     "static/media/Terre.19bdc752.PNG": "/Portfolio/static/media/Terre.19bdc752.PNG",
@@ -29,6 +29,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.06df2ebb.chunk.js",
     "static/css/main.e358a758.chunk.css",
-    "static/js/main.ead70d7f.chunk.js"
+    "static/js/main.d55cec08.chunk.js"
   ]
 }
