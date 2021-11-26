@@ -7,7 +7,7 @@ function Footer() {
         <div className="botLane bg-black mt-5">
             <div className="row">
                 <div className="col-md-12">
-                    <Navbar bg="black" variant="dark" expand="lg" sticky="top" className="d-flex justify-content-center">
+                    <Navbar bg="black" variant="dark" expand="lg" sticky="bottom" className="d-flex justify-content-center">
                         <section class="pb-3">
                             <a class="btn btn-outline-light btn-floating m-2" target="_blank" href="https://twitter.com/DevInsidetheweb" role="button"
                             ><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></a>

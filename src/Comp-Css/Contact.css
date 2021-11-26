@@ -1,0 +1,55 @@
+.contact-box a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: lobster,sans-serif;
+    flex-direction: column;
+    
+}
+
+.contact-box a:hover {
+    color: red;
+
+}
+
+.contact {
+    height: 75vh;
+}
+
+
+.credit{
+    margin-top: 2em;
+    width: 15em;
+}
+
+
+@media (min-width: 576px) { 
+.credit{
+    margin-top: 5em;
+} }
+
+@media (min-width: 576px) { 
+    .credit{
+        margin-top: 5em;
+        width: 20em;
+    } }
+
+
+@media (min-width: 1440px) { 
+    .credit{
+        margin-top: 5em;
+        width: 35em;
+    }
+    .contact-box a {
+        font-size: 2.5rem;
+    }
+
+    h1{
+        font-size: 3.5rem !important;
+    }
+
+    .contact {
+        height: 77vh;
+    }
+}
+

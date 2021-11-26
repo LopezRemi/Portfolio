@@ -3,9 +3,10 @@
 
 #main{
     background-position: center;
-   background-size: cover;
+    background-size: cover;
     text-align: center;
     padding: 0%;
+    ;
     
     
 }
@@ -17,7 +18,7 @@ color: white
 
 h1{
   font-family: 'Lobster', cursive;
-  font-size: 300% !important;
+  font-size: 250% !important;
 }
 
 .subtitle{
@@ -93,3 +94,11 @@ h1{
     opacity: 1;
   }
 }
+
+
+@media (min-width: 1800px) {
+
+       #main{
+               height: 75vh;
+       }
+        }

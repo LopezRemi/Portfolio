@@ -16,7 +16,7 @@ function Biographie() {
                 <Col lg={4}><div><Image src={Profile} fluid className="slit-in-diagonal-1" roundedCircle /></div></Col>
                 <Col lg={8}> <div className="text-white px-5">
                     <div className="mt-5" ><h1 className={`white ${!hide ? 'hide-classname' : 'active-class'}`}>J'aime la glace <span className="red">!</span></h1></div>
-                        <p className="align-left puff-in-top">{bio.text}</p>
+                        <p className="align-left textBio puff-in-top">{bio.text}</p>
                     </div>
                 </Col>
             </Row>

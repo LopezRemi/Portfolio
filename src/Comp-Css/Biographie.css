@@ -64,4 +64,30 @@
         }
       }
       
-  
+      @media (min-width: 1100px) { 
+              .bio{
+                      height: 70vh;
+              }
+
+              
+       }
+
+       @media (min-width: 1300px) {
+
+        .textBio{
+                font-size: 1.2em;
+        }
+        .bio{
+                height: 73vh;
+        }
+        }
+
+        @media (min-width: 2300px) {
+
+                .textBio{
+                        font-size: 1.6em;
+                }
+                .bio{
+                        height: 78vh;
+                }
+                }
