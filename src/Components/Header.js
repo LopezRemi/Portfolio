@@ -1,5 +1,6 @@
 import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import logo from "../data/Img/logo.PNG";
 
 
@@ -22,9 +23,9 @@ function Header() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link className="headLink text-center" href="/">Accueil</Nav.Link>
-                <Nav.Link className="headLink text-center" href="/Biographie">À propos</Nav.Link>
-                <Nav.Link className="headLink text-center" href="/Contact">Contact</Nav.Link>
+                <Nav.Link className="headLink text-center" as={Link} to="/">Accueil</Nav.Link>
+                <Nav.Link className="headLink text-center" as={Link} to="/Biographie">À propos</Nav.Link>
+                <Nav.Link className="headLink text-center" as={Link} to="/Contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
